@@ -1,0 +1,48 @@
+body{
+    background: url(home.jpg) no-repeat center center fixed;
+    background-color: grey;
+    background-blend-mode: multiply;
+    text-align: center;
+}
+
+.container{
+    background-color: rgba(128, 128, 128, 0.8);
+    width: fit-content;
+    margin-top: 13%;
+    margin-bottom: 11%;
+    padding: 30px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    margin: 10px;
+    font-size: 2.5rem;
+}
+
+nav ul li {
+    list-style-type: none;
+    background-color: #2A2F4F;
+    border-style: solid;
+    border-radius: 15px;
+    border-color: transparent;
+    margin-bottom: 15px;
+}
+
+nav ul li a:hover{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+nav ul li:hover{
+    background-color: greenyellow;
+}
+
+h1 {
+    font-size: 6rem;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 2rem;
+}

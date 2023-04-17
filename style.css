@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: 0.5s;
+    scroll-behavior: smooth;
+}
+
+body {
+    height: 100%;
+    margin: 50px;
+    background-color: #070A52;
+    font-family: 'Poppins';
+    color: #F15A59;
+}
+
+h1 {
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 1.75rem;
+}

@@ -1,0 +1,59 @@
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #F15A59;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+div {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+body{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-color: #070A52;
+    color: black;
+    font-family: 'Poppins';
+}
+
+h2{
+    font-weight: bold;
+    font-size: 1.75rem;
+}
+
+.form-box{
+    width: 100%;
+    max-width: 600px;
+    /* position: absolute; */
+    /* top: 50%;
+    left: 50%;
+    transform: translate(-50%, 15%); */
+    background: #fff;
+    padding: 50px 60px 70px;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
